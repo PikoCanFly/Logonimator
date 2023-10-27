@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#svg-container {
+    overflow: visible;
+    /* Additional styling as needed */
+}
+
+.lexus {
+    transform: scale(1.5);
+}
+
+
+#ferrari-logo{
+    transform: scale(1.5);
+
+}
