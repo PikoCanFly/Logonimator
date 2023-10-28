@@ -10,7 +10,7 @@ function animateSVGPaths() {
         path.style.fill = "none";
         path.style.stroke = "none"; // Initially, set to "none" to make the path invisible
         path.style.strokeLinecap = "round";
-        const drawingTime = 0.03 * pathLength
+        const drawingTime = 0.01 * pathLength
 
         
         // Start the animation after a brief delay

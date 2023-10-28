@@ -10,14 +10,14 @@ function animateSVGPaths() {
         path.style.fill = "none";
         path.style.stroke = "none"; // Initially, set to "none" to make the path invisible
         path.style.strokeLinecap = "round";
-        const drawingTime =  pathLength * 0.001;
+        const drawingTime =  pathLength * 0.002
 
         
         // Start the animation after a brief delay
         setTimeout(() => {
             path.style.animation = `draw ${drawingTime}s ease-in forwards`;
             path.style.stroke = "black"; // Set the stroke color
-            path.style.strokeWidth = "1";
+            path.style.strokeWidth = "0.7";
         }, drawingTime * index);
 
         const style = document.createElement("style");
